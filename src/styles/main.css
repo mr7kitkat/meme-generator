@@ -90,7 +90,15 @@ body {
 
 /* Styling canvas */
 .canvas {
-  height: 320px;
+  height: 100%;
   width: 100%;
   background-color: lightgray;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.canvas .meme {
+  height: auto;
+  width: 100%;
 }
